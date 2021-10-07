@@ -1,0 +1,49 @@
+#navHeading:hover{
+    letter-spacing: 3px;
+    color: #ffff3f;
+    text-shadow: 2px 1px 2px #d7e3fc;
+  }
+  #navHeading::first-letter{
+    font-size: 110px;
+  }
+  #navHeading {
+    display: inline-block;
+    font-size: 80px;
+    line-height: 0.9;
+   border: 8px ridge #5c677d;
+   border: 8px ridge #5c677d;
+    padding: 20px;
+    font-family: 'IAclonica', IAclonica;
+    text-transform: uppercase;
+    background: radial-gradient(
+      circle farthest-corner at center center,
+      #ffd500,
+      #332dfd,
+      #dc2f02,
+      #8ac926
+    ) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    filter: drop-shadow(  0 0 0.66rem  whitesmoke);
+    
+  }
+  #navBar:hover{ 
+    color: firebrick;
+  }
+  #navBar {
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+      vertical-align: middle;
+      font-size: 22px;   
+      color: whitesmoke; 
+      list-style-type: none;
+      width:85%;
+      left: 0%;
+      top: 10px;
+     
+      text-shadow: 1px 1px 1px white
+     
+      
+  }
