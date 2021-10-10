@@ -6,7 +6,7 @@ import store from "./redux/state"
 import './index.css'
 import App from './App'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 ReactDOM.render(
   <BrowserRouter>
